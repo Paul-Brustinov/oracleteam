@@ -1,4 +1,4 @@
--- is this a book?
+-- is this a book
 create table Book
 (
   book_id number not null,
