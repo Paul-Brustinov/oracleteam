@@ -7,3 +7,4 @@ create table STUDENT_CAR(
 alter table STUDENT_CAR add constraint sudent_car_PK primary key (STUDENT_EMAIL_FK, STUDENT_CAR_NO);
 
 alter table STUDENT_CAR add constraint student_car_FK1 foreign key(STUDENT_EMAIL_FK) REFERENCES STUDENT(STUDENT_EMAIL);
+--
