@@ -1,0 +1,17 @@
+--------------Entity Definition
+
+
+CREATE TABLE STUDENT 
+(
+  STUDENT_EMAIL VARCHAR2(20) NOT NULL 
+, STUDENT_NAME VARCHAR2(20) NOT NULL 
+, STUDENT_COMMENT VARCHAR2(20)
+);
+
+
+
+--------------Relation Definition & Constratints
+
+
+ALTER TABLE STUDENT
+ADD CONSTRAINT student_PK PRIMARY KEY (STUDENT_EMAIL);

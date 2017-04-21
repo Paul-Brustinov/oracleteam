@@ -1,2 +1,1 @@
-# OraclePractice
-Oracle + Java
+# oracleteam
