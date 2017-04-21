@@ -1,6 +1,7 @@
+-- is this a book?
 create table Book
 (
-  bookId number not null,
+  book_id number not null,
   book_name varchar2(20) not null,
   student_name varchar2(20) not null,
   book_author varchar2(20) not null,
